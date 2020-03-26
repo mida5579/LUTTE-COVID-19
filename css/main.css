@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+
+
+:root
+{
+    --color-blac:;
+    --color-grey:;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html
+{
+  font-size: 62.5%;
+}
+
+body
+{
+    box-sizing: border-box;
+    background-color: #f9fcff;
+    
+}
+
+/* navbar */
+
+.navbar
+{
+    background:transparent;
+    padding: 2rem;
+    height: 8rem;
+}
+
+.navbar-brand
+{
+    font-size: 4rem;
+    color:#ff2e70;
+    text-decoration: none;
+    font-family: 'Patua One';
+}
+
+.navbar-brand:hover
+{
+  color:#ff2e70;  
+}
+
+.navbar ul li
+{
+    font-size: 2rem;
+    margin-left: 1.5rem;
+    list-style: none;
+}
+
+.navbar ul li a
+{
+    color: #fff; 
+}
+
+.navbar ul li a button
+{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color:#fff;
+    border-radius: 50px;
+    transition: all .3s ease;
+}
+
+/* header */
+
+.header
+{
+  background-color: black; 
+  height:60rem;
+  background-image:  linear-gradient( to left, rgba(255,255,255,0.3), rgba(0,0,0,0.8)) ,url("../image/corona-4901880_1920.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  position: relative;
+  padding-left: 20rem;
+}
+
+.text-block
+{
+    min-height:30rem;
+    width: 80rem;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.text-block  h1
+{
+    font-size: 4rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.button
+{
+    height: 4rem;
+    width: 10rem;
+    font-size: 1.5rem;
+    background-color: #fff;
+    color:#444;
+    border: none;
+    font-weight: 900;
+    margin-top: 3rem;
+}
+
+
+/* section-stat */
+
+.section-stat
+{
+    width: 100%;
+    min-height: 30rem;
+    padding-top: 5rem; 
+}
+
+.first-container
+{
+    min-height: 40rem;
+    background-color: #fff;
+    padding:5rem;
+}
+
+.first-container h2
+{
+    font-size: 4rem;
+    margin-bottom: 5rem;
+}
+
+
+.row-part
+{
+        min-height: 15rem;
+        padding: 5rem;
+        box-shadow: 0px 9px 13px 2px rgba(0,0,0,0.1);
+}
+
+.new
+{
+    height: 8rem;
+    padding-top: 2rem;
+    background-color: #fff;
+}
+
+
+.new h1
+{
+   font-size: 2rem;
+   font-weight: 400;
+   font-style: italic;
+   color: red;
+}
+
+.new p
+{
+  font-size: 2rem;
+}
+
+.two
+{
+    display: flex;
+    align-items: center;
+}
+
+.first-container p
+{
+   font-size: 2.5rem;  
+   font-weight: 500;
+}
+
+
+.first-container span
+{
+   font-size: 2.5rem;  
+   height: 10rem;
+   width: 10rem;
+}
+
+/* section-info */
+.section-info
+{
+    width: 100%;
+    height: 50rem;
+    padding-top: 10rem;
+}
+
+.define,
+.text-part,
+.prevention
+{
+    width: 100%;
+    min-height: 20rem;
+    border-left: 3px solid #ff2e70;
+    padding: 5rem;
+    background-color: #fff;
+}
+
+.define h2,
+.text-part h2,
+.prevention h2
+{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: #6ec1e4; 
+}
+
+.define p
+{
+    font-size: 2rem;
+    margin-top: 1rem;
+    text-align: justify;
+}
+
+ul ,
+ol
+{
+   margin-left: 10rem; 
+}
+
+ul li
+{
+    font-size: 2rem;
+    list-style:circle ;
+    font-weight: 500;
+    color: #ff2e70;
+}
+
+.cards_box
+{
+    max-width: 50rem;
+    min-height: 16rem;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    margin-top: 3rem;
+    padding: 1rem;
+    box-shadow:  0px 3px 39px -16px rgba(0,0,0,0.41);
+    transition: all .3s ease-out;
+}
+
+.card_box
+{
+    max-width: 50rem;
+    min-height: 16rem;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-top: 3rem;
+    padding: 1rem;
+    box-shadow:  0px 3px 39px -16px rgba(0,0,0,0.41);
+    transition: all .3s ease-out;
+}
+
+.card_box:hover
+{
+    margin-left: 4rem;
+}
+
+.cards_box:hover
+{
+    margin-left: -4rem;
+}
+
+.text
+{
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+
+.card
+{
+    left: 10%;
+    border: none;
+}
+
+.fisrt-p
+{
+    font-size: 2rem;
+}
+
+.image img
+{
+    object-fit: contain;
+    height: 15rem;
+}
+
+/* prevention */
+.prevention p
+{
+    font-size: 2rem;
+    text-align: left;
+    font-weight: 500;
+}
+
+.mysecond_card
+{
+    width: 25rem;
+    height: 30rem;
+    margin-top: 2rem;
+    background-color: rgb(247, 241, 241);  
+}
+
+.card_img
+{
+    width: 20rem;
+    min-height: 20rem;
+    padding-top: 2rem;
+}
+
+.mysecond_card p
+{
+    margin-top: 1rem;
+     text-align: center;
+    padding: 0.5rem;
+    font-weight: 200;
+    font-size: 2rem;
+}
+
+/* section-diagnostic */
+
+.diagnostic
+{
+   height: 50rem;
+   margin-top: 175rem;
+  background-image:linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)),url('../image/coronavirus-4834107_1920.jpg');
+   background-size:cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+ .diagnostics
+{
+   height: 50rem;
+   width: 100%;
+   padding-top: 3rem;
+} 
+
+form
+{
+    width: 40rem;
+    height: 45rem;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,0.8);
+    padding: 1rem;
+}
+
+ form h3
+{
+    font-size: 2rem;
+    color:#444;
+}
+
+
+ .input_part
+{
+    background-color: rgba(255,255,255,0.4);
+    border: none;
+    font-size: 1.5rem;
+}
+
+textarea
+{
+    background-color: rgba(255,255,255,0.4);
+    border: none;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+
+.btn_link
+{
+   width: 10rem;
+   height: 4rem;
+   font-size: 1.5rem;
+   background-color: #ff2e70;
+   border: none;
+   color: #fff;
+}
+
+.btn_link:hover
+{
+   background-color: #fff;
+   color: #ff2e70;
+}
+ 
+/*  */
+.section-mesure
+{
+    min-height: 40rem;
+    width: 100%;
+    margin-top: 4rem;
+
+}
+
+.section-mesure-inner
+{
+    width: 100%;
+    min-height: 20rem;
+    border-left: 3px solid #ff2e70;
+    padding: 5rem;
+    background-color: #fff;
+}
+
+.section-mesure-inner h2
+{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: #6ec1e4; 
+}
+
+.section-mesure-inner p
+{
+    font-size: 2rem;
+}
+
+.section-mesure-inner ol li
+{
+    font-size: 2rem;
+    margin-top: 2rem;
+    font-weight: 600;
+    font-style: oblique;
+    transition: all .3s ease-in-out;
+}
+
+.section-mesure-inner ol li:hover
+{
+    background-color: #8ca6b15d;
+}
+
+.col_card
+{
+    width: 30rem;
+    height: 10rem;
+    background-color: #ff2e70;
+    padding: 1.5rem;
+    text-align: center;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+
+.col_card p
+{
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.col_card span
+{
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* footer */
+.footer
+{
+    width: 100%;
+    min-height: 25rem;
+    background-color: rgb(76, 76, 122);
+    margin-top: 15rem;
+}
+
+.footer-inner 
+{
+  color: #fff;
+  padding-top: 2.5rem;
+}
+
+.footer .info 
+{
+ width: 40rem;
+ margin: 0 auto;
+ text-align: center;
+}
+
+.info  p
+{
+ border-top: 1px solid  red;
+ border-bottom: 1px solid  red;
+ font-size: 2.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
